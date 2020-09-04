@@ -28,6 +28,7 @@
 		045B9A8A24FFB255006A2974 /* NewsfeedResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B9A8924FFB255006A2974 /* NewsfeedResource.swift */; };
 		045B9A8C24FFB346006A2974 /* NewsfeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B9A8B24FFB346006A2974 /* NewsfeedService.swift */; };
 		0498590D250080B900675ADB /* NewsfeedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498590C250080B900675ADB /* NewsfeedResponse.swift */; };
+		0498590F2500A7C500675ADB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0498590E2500A7C400675ADB /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		045B9A8924FFB255006A2974 /* NewsfeedResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedResource.swift; sourceTree = "<group>"; };
 		045B9A8B24FFB346006A2974 /* NewsfeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedService.swift; sourceTree = "<group>"; };
 		0498590C250080B900675ADB /* NewsfeedResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsfeedResponse.swift; sourceTree = "<group>"; };
+		0498590E2500A7C400675ADB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0458F27A250129060098DDF3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				045B9A7F24FFA57C006A2974 /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		045B9A4B24FFA381006A2974 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +96,8 @@
 		045B9A5624FFA381006A2974 /* TestingNetworkingLayer */ = {
 			isa = PBXGroup;
 			children = (
-				045B9A7F24FFA57C006A2974 /* Service */,
+				0458F27A250129060098DDF3 /* Networking */,
+				0498590E2500A7C400675ADB /* README.md */,
 				045B9A7824FFA458006A2974 /* Enum */,
 				045B9A7524FFA41B006A2974 /* Protocol */,
 				045B9A6E24FFA399006A2974 /* Encoding */,
@@ -220,6 +231,7 @@
 			files = (
 				045B9A6724FFA386006A2974 /* LaunchScreen.storyboard in Resources */,
 				045B9A6424FFA386006A2974 /* Assets.xcassets in Resources */,
+				0498590F2500A7C500675ADB /* README.md in Resources */,
 				045B9A5F24FFA381006A2974 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
